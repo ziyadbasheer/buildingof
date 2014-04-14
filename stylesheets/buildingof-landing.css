@@ -208,10 +208,11 @@ div.mc-field-group input {
 	-moz-border-radius-bottomleft:6px;
 	border-bottom-left-radius:6px;
 	border:1px solid #e0e0e0;
-	height:30px;
+	height:26px;
 	padding-left: 30px;
 	padding-right: 30px;
 	margin-right: 0px;
+
 }
 
 div.mc-field-group input {
