@@ -1,7 +1,7 @@
 #content {
-	width: 70%; 
-	max-width: 720px; 
-	margin: auto auto
+	width: 100%; 
+	min-width: 480px; 
+	margin: auto auto;
 }
 
 #first-block {
@@ -14,6 +14,8 @@ p {
 	text-align: center;
 	font-family: Libre Baskerville, Serif;
 	font-size: 1em;
+	max-width: 720px;
+        margin: auto auto;
 }
 #first-paragraph {
 	color: white; 
