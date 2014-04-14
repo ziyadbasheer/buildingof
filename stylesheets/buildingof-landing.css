@@ -200,6 +200,7 @@ input.button {
 	text-align:center;
 	line-height: 2;
 	font-size: 0.8em;
+	-webkit-appearance: none;
 }
 
 div.mc-field-group input {
