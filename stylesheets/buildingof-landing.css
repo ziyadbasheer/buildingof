@@ -172,10 +172,10 @@ body {
 }
 
 #signup-form {
-	width: 50%;
-        margin: auto auto;
-        min-width: 315px;
-        padding-left: 33%;
+	/*width: 50%;*/
+ /*       margin: auto auto;*/
+ /*       min-width: 315px;*/
+ /*       padding-left: 33%;*/
 }
 
 input.button {
@@ -238,3 +238,9 @@ font-size: 0.8em;}
 
 :-ms-input-placeholder {  
 font-size: 0.8em;}
+
+#mc_embed_signup {
+	width: 25%;
+margin: auto auto;
+min-width: 315px;
+}
