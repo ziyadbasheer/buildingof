@@ -173,8 +173,9 @@ body {
 
 #signup-form {
 	width: 50%;
-    margin: 0 auto;
-    min-width: 315px;
+        margin: auto auto;
+        min-width: 315px;
+        padding-left: 33%;
 }
 
 input.button {
