@@ -61,7 +61,6 @@ p {
 
 article {
 
-	padding-top: 2%;
 	text-decoration: none;
 	opacity: 0;
     -webkit-animation: fadein 2s; /* Safari and Chrome */
@@ -99,7 +98,7 @@ article > h3 {
 #img {
 width: 50%;
 margin: 0 auto;
-  padding-top: 5%;
+  padding-top: 2%;
  }
 
 .icon {
