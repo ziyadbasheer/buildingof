@@ -10,7 +10,7 @@
 
 p {
 	line-height: 1.7;
-	padding: 5% 10% 5% 10%;
+	padding: 3% 5% 3% 5%;
 	text-align: center;
 	font-family: Libre Baskerville, Serif;
 	font-size: 1em;
@@ -240,7 +240,7 @@ font-size: 0.8em;}
 font-size: 0.8em;}
 
 #mc_embed_signup {
-	width: 25%;
-margin: auto auto;
-min-width: 315px;
+   width: 274px; 
+   margin: auto auto;
+   min-width: 315px;
 }
