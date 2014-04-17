@@ -20,6 +20,7 @@ nav > div {
 	float: right;
 	padding-top: 25px;
 	padding-right: 25px;
+	position: absolute;
 }
 .header-links {
 	text-decoration: none;
