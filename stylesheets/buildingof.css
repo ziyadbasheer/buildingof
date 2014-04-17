@@ -1,0 +1,207 @@
+nav {
+	border-bottom: 1px solid #ededed;
+	min-height: 70px;
+	height: 5%;
+	width: 100%;
+}
+
+nav > button {
+	
+}
+
+.logo {
+	width: 50%;
+}
+
+nav > div {
+	display: inline-block;
+}
+
+#links {
+	float: right;
+	padding-top: 25px;
+	padding-right: 25px;
+}
+.header-links {
+	text-decoration: none;
+	font-family: Helvetica, Arial, Sans-serif;
+	font-size: 80%;
+	font-weight: bold;
+	color: #aaaaaa;
+	padding-right: 10px;
+}
+.header-links:hover {
+	color: #707070;
+	transition: color 0.5s ease-in-out;
+}
+
+#content {
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	min-width: 320px;
+	max-width: 640px;
+	font-family: Helvetica, Arial, Sans-serif;
+}
+
+.gist {
+	font-size: 100%;
+	color: #808080;
+	padding-bottom: 20px;
+	font-family: 'Libre Baskerville', serif;
+}
+
+#tagline {
+	text-align: center;
+	width: 70%;
+	max-width: 480px;
+	text-transform: uppercase;
+	margin-right:auto;
+	margin-left: auto;
+	color: #505050;
+	padding-top: 2%;
+	font-family: 'Libre Baskerville', serif;
+	line-height: 1.5em;
+	font-size: 1.7em;
+	padding-bottom: 2%;
+		opacity: 0;
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+       -moz-animation: fadein 1s; /* Firefox */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera */
+            animation: fadein 1s;
+	animation-delay:0.2s;
+	-webkit-animation-delay:0.2s;
+	   -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
+   -moz-animation-fill-mode:forwards; /*FF 5+*/
+   -o-animation-fill-mode:forwards; /*Not implemented yet*/
+   -ms-animation-fill-mode:forwards; /*IE 10+*/
+   animation-fill-mode:forwards; /*when the spec is finished*/
+}
+
+article {
+
+	padding-top: 5%;
+	text-decoration: none;
+	opacity: 0;
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+       -moz-animation: fadein 2s; /* Firefox */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera */
+            animation: fadein 2s;
+	animation-delay:0.5s;
+	-webkit-animation-delay:0.5s;
+	   -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
+   -moz-animation-fill-mode:forwards; /*FF 5+*/
+   -o-animation-fill-mode:forwards; /*Not implemented yet*/
+   -ms-animation-fill-mode:forwards; /*IE 10+*/
+   animation-fill-mode:forwards; /*when the spec is finished*/
+}
+
+p {
+	font-size: 1em;
+	font-family: 'Libre Baskerville', serif;
+	line-height: 1.5;
+	padding-bottom: 20px;
+	color: #202020;
+}
+
+blockquote {
+	font-size: 1em;
+	line-height: 1.5;
+	font-family: 'Libre Baskerville', serif;
+	color: #808080;
+	padding-bottom: 20px;
+
+}
+article > h3, h2, h1 {
+	color: #444444;
+	font-family: 'Libre Baskerville', serif;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+#fadein {
+
+}
+
+#img {
+  margin-left: 43.5%;
+  margin-top: 0.4%;
+ }
+
+.icon {
+	background: url('menu-icon.png') no-repeat;
+	width: 16px;
+	height: 15px;
+	display:inline-block;
+	vertical-align: middle;
+}
+
+.menu-button {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f7f7f7) );
+	background:-moz-linear-gradient( center top, #ffffff 5%, #f7f7f7 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f7f7f7');
+	background-color:#ffffff;
+	-webkit-border-top-left-radius:2px;
+	-moz-border-radius-topleft:2px;
+	border-top-left-radius:2px;
+	-webkit-border-top-right-radius:2px;
+	-moz-border-radius-topright:2px;
+	border-top-right-radius:2px;
+	-webkit-border-bottom-right-radius:2px;
+	-moz-border-radius-bottomright:2px;
+	border-bottom-right-radius:2px;
+	-webkit-border-bottom-left-radius:2px;
+	-moz-border-radius-bottomleft:2px;
+	border-bottom-left-radius:2px;
+	text-indent:0px;
+	border:1px solid #e0e0e0;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:30px;
+	line-height:41px;
+	width:36px;
+	text-decoration:none;
+	text-align:center;
+}
+.menu-button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f7f7f7), color-stop(1, #ffffff) );
+	background:-moz-linear-gradient( center top, #f7f7f7 5%, #ffffff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#ffffff');
+	background-color:#f7f7f7;
+}
+
+.menu-button:active {
+	position:relative;
+	top:1px;
+}
+
+#button-container {
+	float: left;
+	padding-top: 12px;
+	padding-left: 12px;
+}
+
+footer {
+
+	border-top: 1px solid #ededed;
+	padding-top: 20px;
+}
+
+footer > p {
+		color: #909090;
+		font-size: 0.8em;
+}
