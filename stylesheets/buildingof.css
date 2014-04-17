@@ -20,7 +20,7 @@ nav > div {
 	float: right;
 	padding-top: 25px;
 	padding-right: 25px;
-	position: absolute;
+
 }
 .header-links {
 	text-decoration: none;
@@ -29,6 +29,8 @@ nav > div {
 	font-weight: bold;
 	color: #aaaaaa;
 	padding-right: 10px;
+	position: absolute;
+	right: 20px;
 }
 .header-links:hover {
 	color: #707070;
