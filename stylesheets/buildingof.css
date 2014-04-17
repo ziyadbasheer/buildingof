@@ -18,11 +18,10 @@ nav > div {
 }
 
 #links {
-	float: right;
-	padding-top: 25px;
-	padding-right: 25px;
+	float: right;;
 	position: absolute;
-	right: 20px;
+	right: 25px;
+	top: 31px;
 
 }
 .header-links {
@@ -137,7 +136,7 @@ article > h3, h2, h1 {
 }
 
 #img {
-  margin-top: 0.4%;
+  margin-top: 0.7%;
  }
 
 .icon {
