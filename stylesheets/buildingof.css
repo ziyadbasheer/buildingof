@@ -128,6 +128,7 @@ blockquote > a {
 article > h3, h2, h1 {
 	color: #444444;
 	font-family: 'Libre Baskerville', serif;
+	padding-top: 10%;
 }
 
 @keyframes fadein {
@@ -223,7 +224,3 @@ footer > p {
 	padding-bottom: 0px;
 }
 
-
-h2 {
-	padding-top: 10%;
-}
