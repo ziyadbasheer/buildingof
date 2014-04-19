@@ -48,9 +48,10 @@ nav > div {
 
 .gist {
 	font-size: 100%;
-	color: #808080;
-	padding-bottom: 20px;
+	color: #B9B9B9;
+	padding-bottom: 50px;;
 	font-family: 'Libre Baskerville', serif;
+
 }
 
 #tagline {
@@ -83,7 +84,7 @@ nav > div {
 
 article {
 
-	padding-top: 5%;
+	padding-top: 13%;
 	text-decoration: none;
 	opacity: 0;
     -webkit-animation: fadein 2s; /* Safari and Chrome */
@@ -106,6 +107,7 @@ p {
 	line-height: 1.5;
 	padding-bottom: 20px;
 	color: #202020;
+
 }
 
 blockquote {
@@ -113,7 +115,14 @@ blockquote {
 	line-height: 1.5;
 	font-family: 'Libre Baskerville', serif;
 	color: #808080;
-	padding-bottom: 20px;
+	padding-top: 7%;
+	padding-bottom: 7%;
+}
+
+blockquote > a {
+	padding-top: 20px;
+	color: #202020;
+}
 
 }
 article > h3, h2, h1 {
@@ -205,4 +214,16 @@ footer {
 footer > p {
 		color: #909090;
 		font-size: 0.8em;
+		padding-bottom: 0px;
+}
+
+
+
+footer > p {
+	padding-bottom: 0px;
+}
+
+
+h2 {
+	padding-top: 10%;
 }
