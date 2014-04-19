@@ -124,7 +124,6 @@ blockquote > a {
 	color: #202020;
 }
 
-}
 article > h3, h2, h1 {
 	color: #444444;
 	font-family: 'Libre Baskerville', serif;
@@ -217,8 +216,6 @@ footer > p {
 		font-size: 0.8em;
 		padding-bottom: 0px;
 }
-
-
 
 footer > p {
 	padding-bottom: 0px;
