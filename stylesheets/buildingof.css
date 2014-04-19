@@ -115,7 +115,7 @@ blockquote {
 	line-height: 1.5;
 	font-family: 'Libre Baskerville', serif;
 	color: #808080;
-	padding-top: 7%;
+	padding-top: 3%;
 	padding-bottom: 7%;
 	margin-bottom: 40px;
 }
@@ -131,7 +131,7 @@ article > h3, h2, h1 {
 }
 
 article > h2 {
-	padding-top: 10%;
+	padding-top: 5%;
 }
 @keyframes fadein {
     from { opacity: 0; }
@@ -211,7 +211,7 @@ article > h2 {
 footer {
 
 	border-top: 1px solid #ededed;
-	padding-top: 20px;
+	padding-top: 40px;
 }
 
 footer > p {
