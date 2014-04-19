@@ -117,6 +117,7 @@ blockquote {
 	color: #808080;
 	padding-top: 7%;
 	padding-bottom: 7%;
+	margin-bottom: 40px;
 }
 
 blockquote > a {
