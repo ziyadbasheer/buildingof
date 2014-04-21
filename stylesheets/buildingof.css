@@ -51,6 +51,7 @@ nav > div {
 	color: #B9B9B9;
 	padding-bottom: 50px;;
 	font-family: 'Libre Baskerville', serif;
+	max-width:635px;
 
 }
 
@@ -118,6 +119,7 @@ blockquote {
 	padding-top: 3%;
 	padding-bottom: 7%;
 	margin-bottom: 40px;
+	margin-left: 10px;
 }
 
 blockquote > a {
@@ -131,7 +133,7 @@ article > h3, h2, h1 {
 }
 
 article > h2 {
-	padding-top: 5%;
+	padding-top: 2%;
 }
 @keyframes fadein {
     from { opacity: 0; }
@@ -216,7 +218,7 @@ footer {
 }
 
 footer > p {
-		color: #909090;
+		color: #BBBBBB;
 		font-size: 0.8em;
 		padding-bottom: 0px;
 }
