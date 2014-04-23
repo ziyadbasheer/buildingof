@@ -112,6 +112,12 @@ p {
 
 }
 
+article < a {
+	font-weight: 700;
+	color: #363636;
+	text-decoration: none;
+}
+
 blockquote {
 	font-size: 1em;
 	line-height: 1.7
