@@ -247,8 +247,11 @@ footer > p {
 		font-weight: 400;
 }
 
-footer > p {
-	padding-bottom: 0px;
+footer > a {
+	color: #454545;
+	text-decoration: none;
+}
+
 }
 
 #last-paragraph {
