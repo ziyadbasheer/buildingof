@@ -118,7 +118,7 @@ a {
 }
 
 blockquote {
-	font-size: 1.3em;
+	font-size: 1.2em;
 	line-height: 1.7;
 	font-family: 'Libre Baskerville', serif;
 	color: #535353;
@@ -127,6 +127,7 @@ blockquote {
 	margin-left: 0px;
 	margin-right: 0px;
 	font-style: italic;
+
 }
 
 .pullquote {
