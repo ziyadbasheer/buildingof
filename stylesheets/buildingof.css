@@ -111,8 +111,7 @@ p {
 	color: #353535;
 
 }
-
-article < a {
+a {
 	font-weight: 700;
 	color: #363636;
 	text-decoration: none;
