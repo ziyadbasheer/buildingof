@@ -26,9 +26,9 @@ nav > div {
 }
 .header-links {
 	text-decoration: none;
-	font-family: Helvetica, Arial, Sans-serif;
-	font-size: 80%;
-	font-weight: bold;
+	font-family: Lato, Arial, Sans-serif;
+	font-size: 1em;
+	font-weight: 400;
 	color: #aaaaaa;
 	padding-right: 10px;
 }
