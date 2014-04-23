@@ -42,14 +42,14 @@ nav > div {
 	margin-right: auto;
 	margin-left: auto;
 	min-width: 320px;
-	max-width: 690px;
+	max-width: 720px;
 	font-family: Helvetica, Arial, Sans-serif;
 }
 
 .gist {
 	font-size: 1.1em;
 	color: #B9B9B9;
-	padding-bottom: 40px;;
+	padding-bottom: 20px;;
 	font-family: 'Libre Baskerville', serif;
 	max-width:635px;
 	line-height: 1.6;
@@ -106,9 +106,9 @@ article {
 p {
 	font-size: 1.2em;
 	font-family: 'Libre Baskerville', serif;
-	line-height: 1.7;
+	line-height: 1.78;
 	padding-bottom: 20px;
-	color: #202020;
+	color: #353535;
 
 }
 
@@ -116,25 +116,40 @@ blockquote {
 	font-size: 1em;
 	line-height: 1.7
 	font-family: 'Libre Baskerville', serif;
-	color: #808080;
-	padding-top: 3%;
-	padding-bottom: 7%;
-	margin-bottom: 40px;
-	margin-left: 10px;
+	color: #535353;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.pullquote {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1.7em;
+	font-style: italic;
+	line-height: 1.5;
+    text-align: center;
+    
+
 }
 
 blockquote > a {
 	padding-top: 20px;
-	color: #202020;
+	color: #353535;
+	margin: 0 0 0 0;
 }
 
 article > h3, h2, h1 {
 	color: #444444;
-	font-family: 'Libre Baskerville', serif;
+	font-family: 'Libre Baskerville', Sans-serif;
+	margin-bottom: 10px;
 }
 
 article > h2 {
 	padding-top: 2%;
+	margin-bottom: 0px;
+	font-size: 1.6em;
+	font-family: 'Lato', Sans-serif;
 }
 @keyframes fadein {
     from { opacity: 0; }
@@ -219,9 +234,11 @@ footer {
 }
 
 footer > p {
-		color: #BBBBBB;
+		color: #AAAAAA;
 		font-size: 1em;
 		padding-bottom: 0px;
+		font-family: 'Lato';
+		font-weight: 400;
 }
 
 footer > p {
@@ -230,4 +247,17 @@ footer > p {
 
 #last-paragraph {
 	margin-bottom: 40px;
+}
+
+.first-paragraph {
+	margin-top: 5px;
+}
+
+figcaption {
+	padding-top: 5px;
+	font-size: 0.8em;
+	font-family: Lato;
+	font-weight: 400;
+	color: #AAAAAA;
+	text-align: center;
 }
