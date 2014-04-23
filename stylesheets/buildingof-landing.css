@@ -20,6 +20,7 @@ p {
 #first-paragraph {
 	color: white; 
 	text-align: justify; 
+	font-size: 1.2em;
 }
 
 #second-paragraph {
