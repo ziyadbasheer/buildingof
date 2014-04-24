@@ -240,15 +240,15 @@ footer {
 }
 
 footer > p {
-		color: #AAAAAA;
+		color: #999999;
 		font-size: 1em;
 		padding-bottom: 0px;
 		font-family: 'Lato';
 		font-weight: 400;
 }
 
-footer > a {
-	color: #454545;
+footer > p > a {
+	color: #7D7D7D;
 	text-decoration: none;
 }
 
