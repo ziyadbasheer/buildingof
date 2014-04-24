@@ -54,7 +54,7 @@ nav > div {
 	line-height: 1.6;
 }
 
-.gist < a {
+.gist > a {
 	color: #808080;
 }
 
