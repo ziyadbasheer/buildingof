@@ -52,7 +52,10 @@ nav > div {
 	padding-bottom: 20px;;
 	font-family: 'Libre Baskerville', serif;
 	line-height: 1.6;
+}
 
+.gist < a {
+	color: #808080;
 }
 
 #tagline {
