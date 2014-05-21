@@ -13,6 +13,12 @@ nav > button {
 .logo {
 }
 
+h1 {
+	text-align: left;
+    font-size: 3em;
+    text-rendering: optimizeLegibility;
+    letter-spacing: -2px;
+}
 nav > div {
 	/*display: inline-block;*/
 }
