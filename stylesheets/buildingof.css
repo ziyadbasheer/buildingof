@@ -18,6 +18,7 @@ nav > button {
     font-size: 3em;
     text-rendering: optimizeLegibility;
     letter-spacing: -2px;
+    font-family: 'Lato', Arial, Sans-serif;
 }
 nav > div {
 	/*display: inline-block;*/
