@@ -15,7 +15,9 @@ nav > button {
 
 #title {
 	text-align: left;
+	margin: auto auto;
     font-size: 3em;
+    max-width: 600px;
     text-rendering: optimizeLegibility;
     letter-spacing: -2px;
     font-family: 'Lato', Arial, Sans-serif;
@@ -57,7 +59,9 @@ nav > div {
 	font-size: 1.1em;
 	color: #8D8D8D;
 	padding-bottom: 20px;;
-	font-family: 'Libre Baskerville', serif;
+	font-family: 'Lato', serif;
+	max-width: 600px;
+	margin: auto auto;
 	line-height: 1.6;
 }
 
