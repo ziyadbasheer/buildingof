@@ -60,11 +60,16 @@ nav > div {
 	padding-bottom: 20px;;
 	font-family: 'Lato', serif;
 	margin: auto auto;
+	padding-top: 20px;
 	line-height: 1.6;
 }
 
 .gist > a {
 	color: #808080;
+}
+
+.gist > a:hover {
+	color: #505050;
 }
 
 #tagline {
