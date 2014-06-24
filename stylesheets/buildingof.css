@@ -20,6 +20,7 @@ nav > button {
     text-rendering: optimizeLegibility;
     letter-spacing: -2px;
     font-family: 'Lato', Arial, Sans-serif;
+    font-weight: normal;
 }
 nav > div {
 	/*display: inline-block;*/
