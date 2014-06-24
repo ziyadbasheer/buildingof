@@ -14,7 +14,7 @@ nav > button {
 }
 
 #title {
-	text-align: left;
+	text-align: center;
 	margin: auto auto;
     font-size: 3em;
     text-rendering: optimizeLegibility;
@@ -70,6 +70,25 @@ nav > div {
 }
 
 .gist > a:hover {
+	color: #505050;
+}
+
+.home-gist {
+	text-align: center;
+	font-size: 1.1em;
+	color: #8D8D8D;
+	padding-bottom: 20px;;
+	font-family: 'Lato', serif;
+	margin: auto auto;
+	padding-top: 20px;
+	line-height: 1.6;
+}
+
+.home-gist > a {
+	color: #808080;
+}
+
+.home-gist > a:hover {
 	color: #505050;
 }
 
